@@ -4,6 +4,9 @@ import React from "react";
 // import MonthlyTarget from "@/components/loans/MonthlyTarget";
 import LoansComponent from "@/components/loans/LoansComponent";
 import SavingsRecords from "@/components/Savings/SavingsRecords";
+import MembersList from "@/components/Members/membersList";
+import Payments from "@/components/Payments/Payments";
+import ReportGeneration from "@/components/Reports/reports";
 // import MonthlySalesChart from "@/components/loans/MonthlySalesChart";
 // import StatisticsChart from "@/components/loans/StatisticsChart";
 // import RecentOrders from "@/components/loans/LoansForm";
@@ -42,6 +45,18 @@ export default function Ecommerce() {
 
       <div className="col-span-12 xl:col-span-7">
         <SavingsRecords />
+      </div>
+
+      <div className="col-span-12 xl:col-span-7">
+        <MembersList />
+      </div>
+
+      <div className="col-span-12 xl:col-span-7">
+        <Payments />
+      </div>
+
+      <div className="col-span-12 xl:col-span-7">
+        <ReportGeneration />
       </div>
     </div>
   );
