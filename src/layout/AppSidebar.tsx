@@ -4,9 +4,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useSidebar } from "../context/SidebarContext";
+import LoanCalculatorIcon from "@/icons/loan-calculator.svg";
+import { AiOutlineHome } from 'react-icons/ai';
 import {
   BoxCubeIcon,
-  CalenderIcon,
+  // CalenderIcon,
   ChevronDownIcon,
   GridIcon,
   HorizontaLDots,
@@ -28,20 +30,26 @@ type NavItem = {
 
 const navItems: NavItem[] = [
   {
+    icon: <AiOutlineHome />,
+    name: "Home",
+    path: "/",
+  },
+
+  {
     icon: <GridIcon />,
     name: "Dashboard",
     subItems: [
-      { name: "Loans", path: "/", pro: false },
+      { name: "Loans", path: "/loans", pro: false },
       { name: "Savings", path: "/savings", pro: false },
-      { name: "Members", path: "/membersList", pro: false },
-      { name: "Payment", path: "/Payments", pro: false },
-      { name: "Reports", path: "/Reports", pro: false },
+      { name: "Members", path: "/members", pro: false },
+      { name: "Payment", path: "/payments", pro: false },
+      { name: "Reports", path: "/reports", pro: false },
     ],
   },
   {
-    icon: <CalenderIcon />,
-    name: "Calendar",
-    path: "/calendar",
+    icon: <LoanCalculatorIcon />,
+    name: "Loan Calculator",
+    path: "/LoanCalculator",
   },
   {
     icon: <UserCircleIcon />,

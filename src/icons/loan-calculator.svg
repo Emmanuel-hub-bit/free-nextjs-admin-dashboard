@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+  <!-- Calculator Body -->
+  <rect x="4" y="3" width="16" height="18" rx="2" ry="2" stroke="currentColor" stroke-width="2" fill="none"/>
+  
+  <!-- Display -->
+  <rect x="7" y="5" width="10" height="3" rx="1" ry="1" fill="currentColor"/>
+  
+  <!-- Buttons -->
+  <circle cx="8" cy="11" r="1" fill="currentColor"/>
+  <circle cx="12" cy="11" r="1" fill="currentColor"/>
+  <circle cx="16" cy="11" r="1" fill="currentColor"/>
+  
+  <circle cx="8" cy="15" r="1" fill="currentColor"/>
+  <circle cx="12" cy="15" r="1" fill="currentColor"/>
+  <circle cx="16" cy="15" r="1" fill="currentColor"/>
+  
+  <circle cx="8" cy="19" r="1" fill="currentColor"/>
+  <circle cx="12" cy="19" r="1" fill="currentColor"/>
+  <circle cx="16" cy="19" r="1" fill="currentColor"/>
+  
+  <!-- Currency symbol ($) -->
+  <path d="M20 7c0-1-1-2-2-2s-2 .9-2 2 .9 2 2 2 2-1 2-2z" fill="currentColor"/>
+</svg>
